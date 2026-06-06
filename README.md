@@ -33,5 +33,3 @@ An Ubuntu 20.04-themed personal portfolio built with **Next.js** and **Tailwind 
 | **AskMyLecture** | Playlist-aware RAG system with Whisper transcription |
 
 ---
-
-Built with the [Ubuntu portfolio template](https://github.com/vivek9patel/vivek9patel.github.io) by Vivek Patel.
