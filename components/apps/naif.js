@@ -230,30 +230,41 @@ function Projects() {
     const project_list = [
         {
             name: "VitCare — AI Hospital Platform",
-            date: "2024",
-            link: "https://github.com/naifnaqeeb/vitcare",
+            date: "Feb – Apr 2026",
+            link: "https://github.com/naifnaqeeb/VitCare",
             description: [
-                "Full-stack hospital platform with a multi-agent AI system enabling symptom analysis, specialist recommendation, and end-to-end appointment booking.",
+                "Full-stack MERN hospital platform with a multi-agent LangGraph AI system for symptom analysis, specialist recommendation, and end-to-end appointment booking.",
+                "RAG-powered AI medical assistant via FastAPI, LangChain, Chroma vector store & Groq LLM (Llama 3) with session-isolated conversation history.",
             ],
-            domains: ["next.js", "fastapi", "langchain", "mongodb", "tailwindcss"]
+            domains: ["react.js", "fastapi", "langchain", "langgraph", "chromadb", "groq", "tailwindcss", "jwt"]
         },
         {
-            name: "CampusCare — Grievance System",
-            date: "2024",
-            link: "https://github.com/naifnaqeeb/campuscare",
+            name: "Campus-Care — Grievance System",
+            date: "Nov 2025 – Jan 2026",
+            link: "https://github.com/naifnaqeeb/Campus-Care",
             description: [
-                "AWS-deployed grievance management system with RBAC, real-time dashboards, and scalable cloud architecture.",
+                "Full-stack grievance management system with Role-Based Access Control (RBAC) and real-time dashboards, deployed on AWS EC2 with Cognito auth.",
+                "Amazon S3 for media storage and DynamoDB for high-availability persistence with sub-100ms retrieval.",
             ],
-            domains: ["next.js", "node.js", "aws", "mongodb", "tailwindcss"]
+            domains: ["next.js", "aws", "dynamodb", "cognito", "typescript"]
         },
         {
-            name: "AskMyLecture — RAG System",
-            date: "2024",
-            link: "https://github.com/naifnaqeeb/askmylecture",
+            name: "RAG-based AI Teaching Assistant",
+            date: "2025",
+            link: "https://github.com/naifnaqeeb/RAG-based-AI-Teaching-Assistant",
             description: [
                 "Playlist-aware RAG system with Whisper-based transcription and timestamp-grounded LLM responses for YouTube lectures.",
             ],
-            domains: ["python", "langchain", "fastapi", "react.js", "whisper"]
+            domains: ["python", "langchain", "fastapi", "whisper", "chromadb"]
+        },
+        {
+            name: "Scheduler AI",
+            date: "2025",
+            link: "https://github.com/naifnaqeeb/Scheduler-AI",
+            description: [
+                "AI-powered scheduling assistant built with agentic AI principles.",
+            ],
+            domains: ["python", "langchain", "fastapi"]
         },
     ];
 
@@ -266,12 +277,18 @@ function Projects() {
         "node.js": "green-500",
         "fastapi": "teal-400",
         "langchain": "green-400",
+        "langgraph": "emerald-500",
         "mongodb": "green-600",
         "tailwindcss": "blue-300",
         "aws": "yellow-500",
         "docker": "blue-500",
         "whisper": "gray-400",
         "firebase": "red-600",
+        "chromadb": "purple-400",
+        "groq": "orange-400",
+        "dynamodb": "yellow-600",
+        "cognito": "blue-600",
+        "jwt": "pink-400",
     }
 
     return (
