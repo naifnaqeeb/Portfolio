@@ -20,12 +20,12 @@ export default function Meta() {
             <meta name="theme-color" content="#E95420" />
 
             {/* Search Engine */}
-            <meta name="image" content="images/logos/fevicon.png" />
+            <meta name="image" content="images/logos/fevicon.webp" />
             {/* Schema.org for Google */}
             <meta itemProp="name" content="Naif Naqeeb — Full-Stack AI Engineer" />
             <meta itemProp="description"
                 content="Naif Naqeeb's personal portfolio — Full-Stack AI Engineer specializing in LLM applications, RAG pipelines, Agentic AI, and scalable cloud systems." />
-            <meta itemProp="image" content="images/logos/fevicon.png" />
+            <meta itemProp="image" content="images/logos/fevicon.webp" />
             {/* Twitter */}
             <meta name="twitter:card" content="summary" />
             <meta name="twitter:title" content="Naif Naqeeb — Full-Stack AI Engineer" />
@@ -33,19 +33,19 @@ export default function Meta() {
                 content="Naif Naqeeb's personal portfolio — Full-Stack AI Engineer specializing in LLM applications, RAG pipelines, Agentic AI, and scalable cloud systems." />
             <meta name="twitter:site" content="naifnaqeeb" />
             <meta name="twitter:creator" content="naifnaqeeb" />
-            <meta name="twitter:image:src" content="images/logos/logo_1024.png" />
+            <meta name="twitter:image:src" content="images/logos/logo_1024.webp" />
             {/* Open Graph general (Facebook, Pinterest & Google+) */}
             <meta name="og:title" content="Naif Naqeeb — Full-Stack AI Engineer" />
             <meta name="og:description"
                 content="Naif Naqeeb's personal portfolio — Full-Stack AI Engineer specializing in LLM applications, RAG pipelines, Agentic AI, and scalable cloud systems." />
-            <meta name="og:image" content="images/logos/logo_1200.png" />
+            <meta name="og:image" content="images/logos/logo_1200.webp" />
             <meta name="og:url" content="https://naifnaqeeb.github.io/" />
             <meta name="og:site_name" content="Naif Naqeeb Personal Portfolio" />
             <meta name="og:locale" content="en_IN" />
             <meta name="og:type" content="website" />
 
-            <link rel="icon" href="images/logos/fevicon.svg" />
-            <link rel="apple-touch-icon" href="images/logos/logo.png" />
+            <link rel="icon" href="images/logos/fevicon.webp" />
+            <link rel="apple-touch-icon" href="images/logos/logo.webp" />
             <link rel="preload" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" as="style" />
             <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet"></link>
         </Head>
